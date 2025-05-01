@@ -47,7 +47,7 @@ function buildRepoCard(users) {
             repoUl.appendChild(li)
         });
     })
-    .ccatch((err) => {
+    .catch((err) => {
         console.error('Error fetching repos:', err)
     })
 }
